@@ -1,0 +1,22 @@
+{
+    "name": "v_yanlguo/think-wq",
+    "description": "app",
+    "type": "p",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "apache-2.0",
+    "authors": [
+        {
+            "name": "yanlong guo",
+            "email": "guoqiaotian@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "think\\": "src/think",
+            "thinkWQ\\": "src"
+        }
+    }
+}
